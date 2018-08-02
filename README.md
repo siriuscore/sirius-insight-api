@@ -97,7 +97,7 @@ This is a backend-only service. If you're looking for the web frontend applicati
     ```  
 6. Edit sirius.conf  
 
-    ```
+    ```bash
     server=1
     whitelist=127.0.0.1
     txindex=1
@@ -117,7 +117,7 @@ This is a backend-only service. If you're looking for the web frontend applicati
     ```  
 7. Run Node  
 
-    ```
+    ```bash
     $(npm bin)/siriuscore-node start
     ```  
 
